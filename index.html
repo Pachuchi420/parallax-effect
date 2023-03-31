@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax Tutorial </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <img src="img/image_1.png" width=1280px alt="" class="sky">
+    <img src="img/image_2.png" width=1280px alt="" class="plane-1 rellax" data-rellax-speed="1" >
+    <img src="img/image_3.png" width=1280px alt="" class="plane-2 rellax" data-rellax-speed="-.05">
+
+
+
+
+
+    <div class="container">
+        <!--- Navigation -->
+        <div class="nav"> 
+            <a href="#"> Forestry </a>
+
+            <img src = "img/menu-icon.svg" width= 30px>
+        </div>
+
+        <!--- Section 1 -->
+        <div class = "section-1 rellax" data-rellax-speed="-2">  
+            <h1> Experience Njördem </h1>
+            <h3> An experience of a lifetime </h3>
+            
+        </div>
+    </div>
+
+
+
+    <!--- Section 2 -->
+    <div class="container section-2 rellax" data-rellax-speed="-.5">
+        <h2> Lorem Ipsum </h2>
+        <p> 
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+            Illo dolores velit ex tempora facere sit atque sed fugit, 
+            distinctio amet maxime earum ipsa eum dicta nam officiis 
+            tempore ducimus necessitatibus? 
+        </p>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js" integrity="sha512-f5HTYZYTDZelxS7LEQYv8ppMHTZ6JJWglzeQmr0CVTS70vJgaJiIO15ALqI7bhsracojbXkezUIL+35UXwwGrQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        // Also can pass in optional settings block
+        var rellax = new Rellax('.rellax');
+      </script>
+
+</body>
+</html>
